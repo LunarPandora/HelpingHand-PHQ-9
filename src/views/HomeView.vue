@@ -298,7 +298,7 @@
                 </div>
             </Transition>
 
-            <div class="px-5 py-10 flex flex-col gap-3 justify-center" v-else>
+            <div class="px-5 py-10 flex flex-col gap-3 justify-center w-full lg:w-2/3" v-else>
                 <p class="text-[#493628] font-medium text-2xl pb-2">Hasil:</p>
                 <p class="text-3xl leading-10 lg:text-5xl lg:leading-12 font-semibold text-[#493628] pb-3 lg:pb-10">
                     {{ 
