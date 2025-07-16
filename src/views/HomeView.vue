@@ -189,6 +189,8 @@
             });
 
             action.value = result.sort(function(a, b){ return b.weight - a.weight })[0].action
+
+            console.log(result, fuzzyScore)
             resultPage.value = true
         }
     }
